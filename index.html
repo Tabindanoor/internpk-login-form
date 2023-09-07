@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200;1,300;1,500&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <title>Login Form</title>
+    <style>
+        body {
+            border: 1px solid #589ED9;
+            background-color: #589ED9;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: white;
+        }
+
+        .login-container {
+            width: 300px;
+            /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+            text-align: center;
+        }
+
+        .input-container {
+            border-radius: 50%;
+            margin-top: 20px;
+            border-color: white;
+            border-style: none;
+            padding: 0px 20px 0px 0px;
+            
+        }
+
+        .input {
+            width: 100%; /* Set input width to 100% to stretch to the parent width */
+            padding: 20px 0px 20px 20px;
+            border-style: none;
+
+        }
+
+        .btn {
+            width: 100%;
+            padding: 20px;
+            background-color: #277fdc;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .social-icon {
+            font-size: 44px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <i class="fab fa-weibo social-icon " ></i>
+        <h1>Welcome.</h1>
+        <form>
+            <div class="input-container">
+                <input class="input" type="text" id="username" name="email" placeholder="Email Address" style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                <input class="input" type="password" id="password" name="password" placeholder="Password" style="border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
+            </div>
+            <br>
+            <button class="btn" type="submit">Login</button>
+            <p style="color: white; text-decoration: none;"><a href="" style="color: white; text-decoration: none;"><b>Sign up </b></a>for a new Account</p>
+        </form>
+    </div>
+</body>
+</html>
+
+
